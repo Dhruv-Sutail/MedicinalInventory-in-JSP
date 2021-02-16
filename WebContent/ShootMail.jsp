@@ -9,7 +9,7 @@
     final String to = request.getParameter("mail");
     session.setAttribute("email",to);  
     final String from = "dhruvsutail18@gnu.ac.in";
-    final String pass = "5102000@gnu";
+    final String pass = "**********";
 
     String host = "smtp.gmail.com";
     Properties props = new Properties();
